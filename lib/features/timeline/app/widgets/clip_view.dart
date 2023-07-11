@@ -30,6 +30,8 @@ class _ClipItemViewState extends State<ClipItemView> {
 
     chewieController = ChewieController(
       videoPlayerController: videoPlayerController,
+      autoInitialize: true,
+      aspectRatio: 9 / 16,
     );
   }
 
